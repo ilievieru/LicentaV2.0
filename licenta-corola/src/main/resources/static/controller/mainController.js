@@ -56,4 +56,29 @@ app.controller("homeController", function ($scope, $http) {
             $scope.text = true;
         }
     }
+     //about page set current
+        $scope.chooseAbout = function(choose){
+            $scope.first = false;
+            $scope.second = false;
+            $scope.third = false;
+            if(choose == "first")
+                $scope.first = true;
+           if(choose == "second")
+                   $scope.second = true;
+           if(choose == "third")
+                   $scope.third = true;
+        }
+
+ //details page set current
+    $scope.chooseDetails = function(choose){
+        $scope.author = false;
+        $scope.resources = false;
+        $scope.contact = false;
+        if(choose == "Author")
+            $scope.author = true;
+       if(choose == "Resources")
+               $scope.resources = true;
+       if(choose == "Contact")
+               $scope.contact = true;
+    }
 });
