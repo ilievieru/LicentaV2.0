@@ -1,0 +1,2 @@
+-	pentru adnotarea arborilor de discurs poate fi utilizat instrumentul open-source dezvoltat de Grupul NLP de la
+UAIC-FII ca serviciu web (http://nlptools.infoiasi.ro/UAIC.DiscourseParser/).

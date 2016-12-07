@@ -1,0 +1,1 @@
+-	pentru delimitarea la nivel de paragraf și frază se va utiliza segmentatorul TTL dezvoltat la ICIA (Tufiș et al., 2008);

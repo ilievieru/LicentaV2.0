@@ -1,0 +1,3 @@
+-	pentru marcarea elementelor lexicale (cuvinte și semne de punctuație), precum și etichetarea la parte de vorbire și
+ lemă în funcție de context, se va utiliza tokenizatorul dezvoltat de ICIA; un serviciu similar există dezvoltat de
+ Grupul NLP de la UAIC-FII (http://nlptools.infoiasi.ro/);

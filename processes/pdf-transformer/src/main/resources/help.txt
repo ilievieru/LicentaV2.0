@@ -1,0 +1,4 @@
+-	pentru transformarea din formatul PDF în format , cu curățirea elementelor de editare (număr de pagină, înscrieri
+de cap de pagină și de jos de pagină, continuări, linioara de despărțire în silabe de la capăt de rând, eliminarea
+imaginilor, adnotarea notelor de subsol cu lăsarea lor etc.) se va lucra cu interfața web construită în colectivul IIT
+implicat în proiectul COROLA și descrisă mai jos în document;

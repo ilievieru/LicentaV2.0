@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/LicentaV2.0.iml" filepath="$PROJECT_DIR$/.idea/LicentaV2.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/processes/clause-splitter/com.COROLA.ClauseSplitter.iml" filepath="$PROJECT_DIR$/processes/clause-splitter/com.COROLA.ClauseSplitter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/processes/discourse-parser/com.COROLA.DiscourseParser.iml" filepath="$PROJECT_DIR$/processes/discourse-parser/com.COROLA.DiscourseParser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/processes/pdf-transformer/com.COROLA.PdfTranformer.iml" filepath="$PROJECT_DIR$/processes/pdf-transformer/com.COROLA.PdfTranformer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/processes/TTL/com.COROLA.TTL.iml" filepath="$PROJECT_DIR$/processes/TTL/com.COROLA.TTL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/processes/web-fdg-ro/com.COROLA.WebFdgRo.iml" filepath="$PROJECT_DIR$/processes/web-fdg-ro/com.COROLA.WebFdgRo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/processes/web-np-chunker-ro/com.COROLA.WebNpChunkerRo.iml" filepath="$PROJECT_DIR$/processes/web-np-chunker-ro/com.COROLA.WebNpChunkerRo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/processes/lexical-elements/com.COROLA.lexical.iml" filepath="$PROJECT_DIR$/processes/lexical-elements/com.COROLA.lexical.iml" />
+      <module fileurl="file://$PROJECT_DIR$/processes/com.COROLA.processes.iml" filepath="$PROJECT_DIR$/processes/com.COROLA.processes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/licenta-corola/licenta-corola.iml" filepath="$PROJECT_DIR$/licenta-corola/licenta-corola.iml" />
+    </modules>
+  </component>
+</project>
