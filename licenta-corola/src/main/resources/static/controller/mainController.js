@@ -7,10 +7,6 @@ app.controller("homeController", function ($scope, $http) {
     $http.get("/secondResources").success(function (data) {
         $scope.backSecondResources = data.first;
     })
-
-    $scope.ready = function(){
-        return true;
-    }
     $scope.chosenFilter = "none";
     $scope.choseFilter = function (filter) {
         $scope.manual = false;
