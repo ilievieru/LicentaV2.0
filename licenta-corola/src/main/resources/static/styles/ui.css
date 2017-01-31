@@ -1,11 +1,17 @@
-#left { float:left }
-#right { float:right }
+#left {
+    float: left
+}
+
+#right {
+    margin-left: 700px;
+}
+
 /*Variables*/
 :root {
-  --greenBallHeight: 100px;
-  --greenBallWidth: 100px;
-  --blueBallHeight: 120px;
-  --blueBallWidth: 120px;
+    --greenBallHeight: 100px;
+    --greenBallWidth: 100px;
+    --blueBallHeight: 120px;
+    --blueBallWidth: 120px;
 
 }
 
@@ -116,10 +122,10 @@
 
 .ball_wrap div:nth-of-type(5):after {
     content: "";
-       display: block;
-       border-bottom: 1px solid #000;
-       position: absolute;
-       width: 50px;
-       left: -52px;
-       top: 50%;
+    display: block;
+    border-bottom: 1px solid #000;
+    position: absolute;
+    width: 50px;
+    left: -52px;
+    top: 50%;
 }

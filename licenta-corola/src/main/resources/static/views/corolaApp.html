@@ -1,5 +1,5 @@
 <link rel="stylesheet" type="text/css" href="styles/ui.css">
-<div id="content">
+<div id="content" ng-controller="popupController">
     <div id="left">
         <div class="ball_wrap">
             <div class="blue_ball" ng-click="click()">nr 1</div>
@@ -10,5 +10,7 @@
         </div>
     </div>
 
-    <div id="right">{{message}}</div>
+    <div id="right">
+        <div ng-show="showPopup" ng-include="'views/corolaCirclePopup.html'"></div>
+    </div>
 </div>
