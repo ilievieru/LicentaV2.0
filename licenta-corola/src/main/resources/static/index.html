@@ -87,6 +87,19 @@
                         </article>
                     </md-content>
                 </md-tab>
+                <md-tab label="Corola UI">
+                    <md-content class="md-padding">
+                        <nav>
+                            <ul>
+                                <button class="corolaNav" ng-click="uiFilter('ui')" ng-class="{'current': ui}">App</button>
+                                <button class="corolaNav" ng-click="uiFilter('chart')" ng-class="{'current': chart}">Chart</button>
+                            </ul>
+                        </nav>
+                        <article>
+                            <div ng-include="'views/corolaApp.html'" ng-show="ui"></div>
+                        </article>
+                    </md-content>
+                </md-tab>
             </md-tabs>
         </md-content>
     </div>

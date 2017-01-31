@@ -77,4 +77,22 @@ app.controller("homeController", function ($scope, $http) {
        if(choose == "Contact")
                $scope.contact = true;
     }
+
+    $scope.uiFilter = function(filter){
+        $scope.ui = false;
+        $scope.chart = false;
+        if(filter == "ui")
+            {
+                $scope.ui = true;
+                $scope.chart = false;
+            }
+        if(filter == "chart"){
+            $scope.ui = false;
+            $scope.chart = true;
+        }
+    }
+
+    $scope.click = function(){
+        $scope.message = "click";
+    }
 });
